@@ -1,0 +1,119 @@
+/* Responsive Center */
+@media only screen and (max-width: 1280px) {
+  body {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  header {
+    height: 2.75rem;
+    padding: 50px 65px 20px 65px;
+  }
+  header nav {
+    text-align: center;
+    padding-top: 20px;
+  }
+  header .myAccount {
+    padding-top: 8px;
+    font-family: "Open Sans", sans-serif;
+    /* font-weight: 300; */
+  }
+  .shopping-bag {
+    top: 6px;
+  }
+  header nav a {
+    text-decoration: none;
+    padding: 16px;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
+    border: 3px solid #000;
+    padding: 2px;
+  }
+  .logo p {
+    font-size: 12px;
+  }
+  .search {
+    position: absolute;
+    top: 71px;
+    left: 150px;
+  }
+  /*Main section*/
+  .main-title {
+    font-size: 43px;
+    line-height: 68px;
+    letter-spacing: 5px;
+  }
+  .main-content {
+    height: 700px;
+  }
+  .bg-strips {
+    width: 100%;
+    top: 160px;
+  }
+  .grey-strip {
+    height: 110px;
+  }
+  .light-grey-strip {
+    height: 11px;
+  }
+  .light-orange-strip {
+    height: 11px;
+  }
+  .dark-orange-strip {
+    height: 11px;
+  }
+  .couch {
+    position: absolute;
+    top: 93px;
+    right: 310px;
+    z-index: 1000;
+    height: 49%;
+    width: 53%;
+  }
+  #discover {
+    height: 32px;
+    width: 174px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: #fff;
+    margin-top: 115px;
+    -webkit-box-shadow: 0px 11px 2px -9px rgba(122, 122, 122, 0.5);
+    -moz-box-shadow: 0px 11px 2px -9px rgba(122, 122, 122, 0.5);
+    box-shadow: 0px 11px 2px -9px rgba(122, 122, 122, 0.5);
+    /* font-family: "Open Sans", sans-serif; */
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #4d5156;
+  }
+  #discover:hover {
+    cursor: pointer;
+  }
+  /*Footer Spacing*/
+  footer {
+    background-color: #f2eee6;
+  }
+  footer p {
+    color: #4d5156;
+    font-size: 11px;
+  }
+  .socials {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2eee6;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+  }
+  .socials:hover {
+    cursor: pointer;
+  }
+  .carousel {
+    position: absolute;
+    right: 40px;
+    bottom: 100px;
+  }
+}

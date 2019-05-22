@@ -1,0 +1,180 @@
+@import "responsive.css";
+
+html {
+  overflow-x: hidden;
+  background-color: #f2eee6;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Applies to all*/
+a {
+  text-decoration: none;
+  color: #8e8b85;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 3.8rem;
+  padding: 53px 65px 20px 65px;
+}
+header nav {
+  text-align: center;
+  padding-top: 20px;
+}
+header .myAccount {
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 300; */
+}
+.shopping-bag {
+  /* width: 25px;
+  height: 28px; */
+  width: 1.5625rem;
+  height: 1.75rem;
+  top: 6px;
+  position: relative;
+  margin-left: 0.2rem;
+}
+header nav a {
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 300; */
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border: 3px solid #000;
+  padding: 2px;
+  position: relative;
+}
+.logo p {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+.search {
+  position: absolute;
+  top: 75px;
+  left: 150px;
+  /* font-family: "Open Sans", sans-serif;
+  font-weight: 300; */
+}
+/*Main section*/
+.main-title {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  line-height: 68px;
+  letter-spacing: 7px;
+}
+.main-content {
+  height: 700px;
+  position: relative;
+}
+.bg-strips {
+  position: absolute;
+  width: 100%;
+  top: 250px;
+}
+.shape1 {
+  position: absolute;
+  left: 65px;
+  top: 30px;
+}
+.shape2 {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+}
+button {
+  margin-top: 15px;
+}
+.grey-strip {
+  background-color: #dad6cf;
+  height: 139px;
+  width: 100vw;
+}
+.light-grey-strip {
+  background-color: #f2eee6;
+  height: 13px;
+  width: 100vw;
+}
+.light-orange-strip {
+  background-color: #f0a13f;
+  height: 13px;
+  width: 100vw;
+}
+.dark-orange-strip {
+  background-color: #ee7d30;
+  height: 13px;
+  width: 100vw;
+}
+.couch {
+  position: absolute;
+  top: 210px;
+  right: 410px;
+  z-index: 1000;
+  height: 51%;
+  width: 51%;
+}
+#discover {
+  height: 42px;
+  width: 184px;
+  background-color: #fff;
+  border-radius: 50px;
+  border: #fff;
+  margin-top: 115px;
+  -webkit-box-shadow: 0px 11px 2px -9px rgba(122, 122, 122, 0.5);
+  -moz-box-shadow: 0px 11px 2px -9px rgba(122, 122, 122, 0.5);
+  box-shadow: 0px 11px 2px -9px rgba(122, 122, 122, 0.5);
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #4d5156;
+}
+#discover:hover {
+  cursor: pointer;
+}
+/*Footer Spacing*/
+footer {
+  background-color: #f2eee6;
+  position: relative;
+}
+footer p {
+  color: #4d5156;
+  text-align: start;
+  font-size: 12px;
+}
+.socials {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2eee6;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+.socials p {
+  margin-left: 2.6rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.socials:hover {
+  cursor: pointer;
+}
+.carousel {
+  position: absolute;
+  right: 60px;
+  top: 20px;
+}
