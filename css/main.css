@@ -175,16 +175,15 @@ footer p {
 }
 .carousel {
   position: absolute;
-  right: 60px;
-  top: 20px;
+  right: 100px;
+  top: 25px;
 }
-
 
 /* Responsive Center */
 @media only screen and (max-width: 1280px) {
   body {
     height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
   header {
     height: 2.75rem;
@@ -254,7 +253,7 @@ footer p {
     width: 53%;
   }
   #discover {
-    height: 32px;
+    height: 40px;
     width: 174px;
     background-color: #fff;
     border-radius: 50px;
@@ -293,10 +292,9 @@ footer p {
   .socials:hover {
     cursor: pointer;
   }
-  .carousel {
+  /* .carousel {
     position: absolute;
-    right: 40px;
-    bottom: 100px;
-  }
+    right: 100px;
+    top: 25px;
+  } */
 }
-
